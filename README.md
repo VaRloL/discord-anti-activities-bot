@@ -1,1 +1,1 @@
-"# discord-anti-activities-bot" 
+"# Discord Anti-Activities Bot" 
