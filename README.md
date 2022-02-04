@@ -13,12 +13,14 @@ To get the bot up and running, you will need **Node.JS** 16.13.2 or later, downl
 
 After installing every dependency needed, there are a few things to do next, create a file named *config.json* in the **src** folder, this file needs your Bot Token (You need to set up an application in the Discord Dev Portal, create a Bot and then copy the Bot Token for this) and the apps (currently limited to games only) that will get someone banned after playing them for 30 minutes. The file should look like this:
 
-`{`
-    `"BotToken": "your bot's token here"`
-    `"VideoGames": [`
-        "the games here, you should add a **,** after every game, note that this works by getting a match and not being the exact same app name, so if you type in 'touhou' for example, it will ban whoever is playing any touhou game (probably)"
-    `]`
-`}`
+```
+{
+    "BotToken": "your bots token here"
+    "VideoGames": [
+        "the games here, you should add a , after every game, note that this works by getting a match and not being the exact same app name, so if you type in 'touhou' for example, it will ban whoever is playing any touhou game (probably)"
+    ]
+}
+```
 
 ## Running
 
