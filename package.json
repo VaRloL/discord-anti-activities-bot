@@ -1,0 +1,17 @@
+{
+  "name": "antilolbot",
+  "version": "1.0.0",
+  "description": "Bans users for playing a certain game for a certain amount of time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VaRloL",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  }
+}
