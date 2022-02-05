@@ -15,9 +15,11 @@ After installing every dependency needed, there are a few things to do next, cre
 
 ```
 {
-    "BotToken": "your bots token here"
+    "BotToken": "your bots token here",
     "VideoGames": [
-        "the games here, you should add a , after every game, note that this works by getting a match and not being the exact same app name, so if you type in 'touhou' for example, it will ban whoever is playing any touhou game (probably)"
+        "the games here, you should add a , after every game, note that this works by getting a match and not being the exact same app name, 
+        so if you type in 'touhou' for example, it will ban whoever is playing any touhou game 
+        (probably)"
     ]
 }
 ```
